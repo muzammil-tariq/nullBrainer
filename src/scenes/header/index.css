@@ -3,3 +3,16 @@ header{
     overflow: hidden;
     height: 763.875px;
 }
+
+
+header::before{
+    position: relative;
+    width: 28px;
+    height: 42px;
+    border: 2px solid #131111;
+    border-radius: 50px;
+    z-index: 99999;
+    cursor: pointer;
+    margin: 0 auto;
+    top: 70%;
+}

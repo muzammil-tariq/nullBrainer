@@ -1,0 +1,84 @@
+.mpartial{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.title{
+    text-align: left;
+    padding-top: 21%;
+    padding-left: 35%;
+    background-position: 134px 50px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/circle.png);
+
+}
+
+
+.into-box{
+    display: block;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: -.19px;
+    color: #000;
+    opacity: 1;
+    padding-top: 19%;
+    padding-right: 95px;
+}
+/* .title-box,
+.into-box{
+    margin: 138px 0px;
+
+}
+ .title-box  {
+    position: relative;
+    padding: 0px 151px;
+    background-image: url(../../assets/circle.png);
+    background-size: 200px  200px;
+    background-repeat: no-repeat;
+    background-position: 0 16px;
+z-index: 1;
+} 
+/*
+.into-box  {
+    padding: 0px 124px;
+}
+
+.title-box h2{
+    font-size: 45px;
+} */
+
+
+/* .container div{
+    padding-top: 18%;
+    padding-left: 17%;
+    
+} */
+/* .title{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+    background-image: url(../../assets/circle.png);
+    background-size: 200px  200px;
+    background-repeat: no-repeat;
+    background-position: 0 16px;
+} */
