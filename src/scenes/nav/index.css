@@ -3,11 +3,13 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: transparent;
   width: 100%;
   align-items: center;
   padding: 10px 100px;
   border-bottom: 1px solid #bababa;
+  z-index: 999;
+  transition: all 0.5s;
 }
 
 nav .logo {

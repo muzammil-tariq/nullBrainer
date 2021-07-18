@@ -4,11 +4,12 @@ import HomePage from './pages/HomePage';
 /// App 
 
 const App = () => {
-  return (
-    <div>
-      <HomePage></HomePage>
-    </div>
-  );
+    return (
+      <div>
+        <HomePage></HomePage>
+      </div>
+    );
+ 
 }
 
 export default App;

@@ -1,9 +1,11 @@
 import React from 'react';
 import Nav from '../scenes/nav/nav';
+import Header from '../scenes/header/header';
 const HomePage = () => {
     return (
         <div>
-            <Nav></Nav>
+            <Nav/>
+            <Header/>
         </div>
     );
 };
