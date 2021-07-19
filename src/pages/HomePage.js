@@ -5,6 +5,7 @@ import Mpartial from '../scenes/mpartial/mpartial';
 import PostMitigration from '../scenes/post-mitigration/postMitigration';
 import HowItWork from '../scenes/How-It-Work/howItWork';
 import WaterFall from '../scenes/waterFall/waterFall';
+import ExampleDel from '../scenes/Example-Del/exampleDel';
 const HomePage = () => {
     return (
         <div>
@@ -14,6 +15,7 @@ const HomePage = () => {
             <PostMitigration/>
             <HowItWork/>
             <WaterFall/>
+            <ExampleDel/>
 
         </div>
     );

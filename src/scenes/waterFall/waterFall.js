@@ -8,7 +8,7 @@ const WaterFall = (props) => {
             <div className="container">
 
                 <div className="row">
-                    <Title />
+                    <Title title="Waterfall Fee Structure" />
                     <div className="mt-5 pt-5 mb-5">
                         <div className="row">
                             <div className="col-lg-1"></div>

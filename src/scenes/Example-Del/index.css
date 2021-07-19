@@ -1,0 +1,31 @@
+.example{
+    background-color: rgb(242, 246, 247);;
+}
+
+.scan{
+    text-align: center;
+}
+.a a{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
+.a a:hover{
+border-bottom: 3px solid #000;
+}
+
+.img-map{
+    width: 49%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 440px;
+    margin: 1%;
+}
+
+.sketch-container{
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+}
