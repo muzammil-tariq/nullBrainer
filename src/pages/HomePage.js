@@ -7,6 +7,7 @@ import HowItWork from '../scenes/How-It-Work/howItWork';
 import WaterFall from '../scenes/waterFall/waterFall';
 import ExampleDel from '../scenes/Example-Del/exampleDel';
 import Contact from '../scenes/contact/contact';
+import Footer from '../scenes/footer/footer';
 const HomePage = () => {
     return (
         <div>
@@ -18,6 +19,7 @@ const HomePage = () => {
             <WaterFall/>
             <ExampleDel/>
             <Contact/>
+            <Footer/>
 
         </div>
     );
