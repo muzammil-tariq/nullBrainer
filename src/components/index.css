@@ -1,0 +1,13 @@
+.title-com{
+    font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  padding: 156px 315px;
+  background: url(../assets/circle.png);
+  background-position: 50%;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
