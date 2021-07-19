@@ -1,0 +1,46 @@
+.how-it-work {
+  background: rgba(10, 81, 105, 0.05);
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-work {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  padding: 156px 432px;
+  background: url(../../assets/circle.png);
+  background-position: 50%;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+.data-points .data-points-item .data-number{
+    background: url(../../assets/gutter.png);
+    background-position: bottom;
+    font-weight: 700;
+    font-size: 137px;
+    color: #0a5169;
+    background-repeat: no-repeat;
+
+}
+.data-points .data-points-item .data-text{
+    color: #000;
+}
+.data-points{
+    margin-bottom: 104px;
+}
