@@ -53,3 +53,26 @@
 
   
  }
+
+
+ .try-now-btn{
+     text-align: center;
+     padding: 0 0 30px;
+     margin: 0 auto;
+ }
+
+ .try-now-btn .btn{
+     height: 40px;
+     width: 159px;
+     background: #3ac280;
+     border-radius: #3ac280;
+     border-radius: 20px;
+     text-align: center;
+     font-size: 14px;
+     color: #fff;
+     opacity: 1;
+
+ }
+ .btn:hover{
+     color: #000;
+ }

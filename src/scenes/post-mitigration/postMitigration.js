@@ -9,8 +9,13 @@ const postMitigration = (props) => (
                 <div className="img-2"></div>
             </div>
             <div className="slider">
-            <input type="range" min="0" max="100" value="50"/>
+                <input type="range" min="0" max="100" value="50" />
             </div>
+        </div>
+        <div className="try-now-btn">
+            <a href="#">
+                <button className="btn">Try Today</button>
+            </a>
         </div>
     </section>
 
