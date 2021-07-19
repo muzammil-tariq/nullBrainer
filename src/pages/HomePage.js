@@ -6,6 +6,7 @@ import PostMitigration from '../scenes/post-mitigration/postMitigration';
 import HowItWork from '../scenes/How-It-Work/howItWork';
 import WaterFall from '../scenes/waterFall/waterFall';
 import ExampleDel from '../scenes/Example-Del/exampleDel';
+import Contact from '../scenes/contact/contact';
 const HomePage = () => {
     return (
         <div>
@@ -16,6 +17,7 @@ const HomePage = () => {
             <HowItWork/>
             <WaterFall/>
             <ExampleDel/>
+            <Contact/>
 
         </div>
     );

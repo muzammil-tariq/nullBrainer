@@ -1,0 +1,59 @@
+
+  .contact .form{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+ 
+  
+  
+  .contact div input{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(10, 81, 105);
+    padding: 10px 15px;
+    color: #928f8f;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .contact #message{
+    height: 80%;
+  }
+  .contact .button{
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .contact button{
+    width: 160px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 40px;
+    color: #fff;
+    background-color: #afadad;
+    margin: 0px auto;
+  }
+  .message{
+      position: relative;
+  }
+  .label-message{
+    position: absolute;
+    top: 23;
+    left: 13;
+
+  }
+  #message:focus ~ .label-message,
+  #name:focus ~ .label-message,
+  #email:focus ~ .label-message,
+  #cell:focus ~ .label-message{
+      font-size: 0.5rem;
+      top: -0.5rem; 
+      left:0.8rem
+  }
