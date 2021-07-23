@@ -27,10 +27,12 @@ text-align: left;
 background-color: #3ac280;
 font-size: 28px;
 border-radius: 8px;
+color: #fff;
+
 }
 .header-paid{
-    background:  rgb(10, 81, 105);
-
+    background:  rgb(10, 81, 105) !important;
+color: #fff;
 }
 .body{
     display: flex;
