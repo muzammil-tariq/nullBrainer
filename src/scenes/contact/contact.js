@@ -30,25 +30,25 @@ const Contact = (props) => {
                             <div className="col-lg-5">
                                 <div className="message">
                                     <input className="name" type="text" id="name" onChange={changeEvent} />
-                                    <label className="label-message">Enter name</label>
+                                    <label className="label-name">Enter name</label>
 
                                 </div>
                                 <div className="message">
                                     <input className="email" type="email" id="email" onChange={changeEvent}  />
-                                    <label className="label-message">Enter email</label>
+                                    <label className="label-mail">Enter email</label>
 
                                 </div>
                                 <div className="message">
 
                                     <input className="cel" type="tel" id="tel" onChange={changeEvent}  />
-                                    <label className="label-message">Enter cell</label>
+                                    <label className="label-cell">Enter cell</label>
 
                                 </div>
                             </div>
 
                             <div className="col-lg-5">
                                 <div className="message">
-                                    <input onChange={changeEvent} id="message"></input>
+                                    <input onChange={changeEvent} id="message-text"></input>
                                     <label className="label-message">Enter message</label>
                                 </div>
                             </div>

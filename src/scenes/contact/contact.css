@@ -20,9 +20,6 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  .contact #message{
-    height: 80%;
-  }
   .contact .button{
     width: fit-content;
     margin: 0px auto;
@@ -45,14 +42,22 @@
   }
   .label-message{
     position: absolute;
-    top: 23;
+    top: 20;
     left: 13;
 
   }
-  #message:focus ~ .label-message,
-  #name:focus ~ .label-message,
-  #email:focus ~ .label-message,
-  #cell:focus ~ .label-message{
+  .message .label-name{
+    position: absolute;
+    top: 9 !important;
+    left: 13 !important;
+  }
+  #message-text{
+    height: 195px;
+  }
+  #message-text ~ .label-message,
+  #name:focus ~ .label-name,
+  #email:focus ~ .label-email,
+  #cell:focus ~ .label-cell{
       font-size: 0.5rem;
       top: -0.5rem; 
       left:0.8rem
