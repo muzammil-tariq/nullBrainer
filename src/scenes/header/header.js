@@ -8,7 +8,6 @@ const header = (props) => (
 
         {/* <Video src={video}  repeat="true" ></Video> */}
         <video src={video} autoPlay={true} loop={true} preload="auto" playsInline ></video>
-    <div className="slider-down-btn"></div>
     </header>
 
     </>

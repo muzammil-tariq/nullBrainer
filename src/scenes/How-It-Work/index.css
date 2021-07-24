@@ -38,8 +38,9 @@
     background-repeat: no-repeat;
 
 }
-.data-points .data-points-item .data-text{
+.data-points .data-points-item .data-text a{
     color: #000;
+    text-decoration: none;
 }
 .data-points{
     margin-bottom: 104px;

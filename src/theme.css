@@ -27,7 +27,7 @@ h3,h4,h5,h6{
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width:8px;
 }
 
 /* Track */
@@ -39,5 +39,5 @@ h3,h4,h5,h6{
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #3ac280; 
-  /* border-radius: 10px; */
+  border-radius: 10px;
 }

@@ -22,10 +22,10 @@ const howItWork = (props) => (
                         <div className="col-md-4 col-sm-12">
                             <div className="data-points-item row">
                                 <div className="data-number data_number_1 col-md-4 col-sm-12">
-                                    1
+                                    2
                                 </div>
                                 <div className="data-text  col-md-8 col-sm-12 ">
-                                    <a href="#">                                    Perform pre-mitigation and post-mitigation scans with a Matterport Pro Series camera.
+                                    <a href="#">                                    Submit the Matterport scans via the mpartial portal and then go back to what you do great
                                     </a>
                                 </div>
                             </div>
@@ -33,10 +33,11 @@ const howItWork = (props) => (
                         <div className="col-md-4 col-sm-12">
                             <div className="data-points-item row">
                                 <div className="data-number data_number_1 col-md-4 col-sm-12">
-                                    1
+                                    3
                                 </div>
                                 <div className="data-text  col-md-8 col-sm-12 ">
-                                    <a href="#">                                    Perform pre-mitigation and post-mitigation scans with a Matterport Pro Series camera.
+                                    <a href="#">
+                                        Receive a well-formatted, fully documented Xactimate PDF, ESX & Matterport TruePlan SKX.
                                     </a>
                                 </div>
                             </div>
