@@ -6,14 +6,15 @@ nav {
   background-color: transparent;
   width: 100%;
   align-items: center;
-  padding: 10px 100px;
+  padding: 1px 100px;
   border-bottom: 1px solid #bababa;
   z-index: 999;
   transition: all 0.5s;
 }
 
 nav .logo {
-  width: 20%;
+  width: 15%;
+  margin: 0 93px;
 }
 .logo img {
   width: 100%;
@@ -37,7 +38,7 @@ nav li{
 }
 
 nav li:hover{
-    color: #1c1d1c;
+    color: #3ac280 !important;
     cursor: pointer;
 }
 
@@ -45,5 +46,5 @@ nav li:last-child{
     background-color: #3ac280;
     border-radius: 20px;
     color: #fff;
-    padding: 2px 20px;
+    padding: 1px 20px;
 }

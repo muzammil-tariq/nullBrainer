@@ -1,5 +1,5 @@
 .container-slider {
-    width: 80%;
+    width: 59%;
     height: 700px;
     margin: 100px auto 0;
     position: relative;
@@ -47,13 +47,14 @@
   }
   .prev {
     top: 50%;
-    left: 20px;
+    left: 116px;
     transform: translateY(-60%);
   }
   .next {
     top: 50%;
-    right: 20px;
+    right: 116px;
     transform: translateY(-60%);
+
   }
   
   

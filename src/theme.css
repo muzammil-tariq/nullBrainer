@@ -25,3 +25,19 @@ h2{
 h3,h4,h5,h6{
   font-weight: 400;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track { */
+  /* box-shadow: inset 0 0 5px grey;  */
+  /* border-radius: 10px; */
+/* } */
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3ac280; 
+  /* border-radius: 10px; */
+}

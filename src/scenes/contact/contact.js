@@ -29,27 +29,23 @@ const Contact = (props) => {
                         <div className="form">
                             <div className="col-lg-5">
                                 <div className="message">
-                                    <input className="name" type="text" id="name" onChange={changeEvent} />
-                                    <label className="label-name">Enter name</label>
-
+                                    <input type="text" id="name" class="form__input" autocomplete="off" placeholder=" " />
+                                    <label for="email" class="form__label">Name</label>
                                 </div>
                                 <div className="message">
-                                    <input className="email" type="email" id="email" onChange={changeEvent}  />
-                                    <label className="label-mail">Enter email</label>
-
+                                    <input type="text" id="email" class="form__input" autocomplete="off" placeholder=" " />
+                                    <label for="email" class="form__label">Email</label>
                                 </div>
                                 <div className="message">
-
-                                    <input className="cel" type="tel" id="tel" onChange={changeEvent}  />
-                                    <label className="label-cell">Enter cell</label>
-
+                                    <input type="text" id="cell" class="form__input" autocomplete="off" placeholder=" " />
+                                    <label for="email" class="form__label">Cell</label>
                                 </div>
                             </div>
 
                             <div className="col-lg-5">
-                                <div className="message">
-                                    <input onChange={changeEvent} id="message-text"></input>
-                                    <label className="label-message">Enter message</label>
+                               <div className="message">
+                                    <input type="text" id="message_text" class="form__input" autocomplete="off" placeholder=" " />
+                                    <label for="email" class="form__label">Enter Your message</label>
                                 </div>
                             </div>
                         </div>

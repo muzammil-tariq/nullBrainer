@@ -28,7 +28,7 @@ const Nav = () => {
                 <ul>
                     <li>Ground-Truth Data</li>
                     <li>How it Works</li>
-                    <li>Free Structur</li>
+                    <li>Free Structure</li>
                     <li>Example Deliverables</li>
                     <li>Submission Portal</li>
                     <li>Contact Us</li>
