@@ -38,23 +38,23 @@ const Contact = (props) => {
                         <div className="form">
                             <div className="col-lg-5">
                                 <div className="message">
-                                    <input type="text" id="name" class="form__input" autocomplete="off" placeholder=" " />
-                                    <label for="email" class="form__label">Name</label>
+                                    <input type="text" id="name" className="form__input" autoComplete="off" placeholder=" " />
+                                    <label  className="form__label">Name</label>
                                 </div>
                                 <div className="message">
-                                    <input type="text" id="email" class="form__input" autocomplete="off" placeholder=" " />
-                                    <label for="email" class="form__label">Email</label>
+                                    <input type="text" id="email" className="form__input" autoComplete="off" placeholder=" " />
+                                    <label  className="form__label">Email</label>
                                 </div>
                                 <div className="message">
-                                    <input type="text" id="cell" class="form__input" autocomplete="off" placeholder=" " />
-                                    <label for="email" class="form__label">Cell</label>
+                                    <input type="text" id="cell" className="form__input" autoComplete="off" placeholder=" " />
+                                    <label  className="form__label">Cell</label>
                                 </div>
                             </div>
 
                             <div className="col-lg-5">
                                 <div className="message">
-                                    <input type="text" id="message_text" class="form__input" autocomplete="off" placeholder=" " />
-                                    <label for="email" class="form__label">Enter Your message</label>
+                                    <input type="text" id="message_text" className="form__input" autoComplete="off" placeholder=" " />
+                                    <label  className="form__label">Enter Your message</label>
                                 </div>
                             </div>
                         </div>

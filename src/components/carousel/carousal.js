@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './Slider.css'
 import BtnSlider from './btnSlider'
 import dataSlider from './dataSlider'
@@ -28,9 +28,7 @@ export default function Slider() {
             setSlideIndex(1)
         }
     }
-    const automate = () => {
-        console.log('hello')
-    }
+   
     const prevSlide = () => {
         if (slideIndex !== 1) {
             setSlideIndex(slideIndex - 1)
@@ -44,10 +42,7 @@ export default function Slider() {
         setSlideIndex(index)
     }
 
-    const srcRet = (a) => {
-        debugger
-        return `../../assets/image${a}.png`
-    }
+    
     return (
         <div style={{ position: 'relative' }}>
             <div className="container-slider">
@@ -66,9 +61,7 @@ export default function Slider() {
             </div>
             <BtnSlider moveSlide={nextSlide} direction={"next"} />
             <BtnSlider moveSlide={prevSlide} direction={"prev"} />
-            {
-                automate()
-            }
+            
             <div className="container-dots">
                 {Array.from({ length: 5 }).map((item, index) => (
                     <div

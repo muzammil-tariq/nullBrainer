@@ -35,12 +35,12 @@ function exampleDel(props) {
                         <Carousal />
                     </div>
                     <div className="scan a " style={{ marginTop: '60px' }}>
-                        <a>MATTERPORT TRUEPLAN™ FOR XACTIMATE™</a>
+                        <a href="#">MATTERPORT TRUEPLAN™ FOR XACTIMATE™</a>
                     </div>
                     <div className="sketch-container">
-                        <img src={img1} className="img-map"></img>
+                        <img src={img1} className="img-map" alt=""></img>
 
-                        <img src={img2} className="img-map"></img>
+                        <img src={img2} className="img-map" alt=""></img>
 
                     </div>
                 </div>
