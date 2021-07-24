@@ -30,6 +30,11 @@ border-radius: 8px;
 color: #fff;
 
 }
+.icon{
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+}
 .header-paid{
     background:  rgb(10, 81, 105) !important;
 color: #fff;

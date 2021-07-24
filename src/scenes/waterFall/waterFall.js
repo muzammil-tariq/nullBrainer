@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Title from '../../components/title';
 import './index.css'
+import icon from '../../assets/icon.png'
 const WaterFall = (props) => {
     const [num, setNum] = useState(1);
     const onSliderChange = (e) => {
@@ -60,9 +61,15 @@ const WaterFall = (props) => {
                                         <h4>6.34%</h4>
                                         <div>
                                             <div className="d-flex">
+                                                <div className="mr-2">
+                                                    <img alt="" src={icon} className=" icon"></img>
+                                                </div>
                                                 <div>Access to mpartial engine</div>
                                             </div>
                                             <div className="d-flex">
+                                                <div className="mr-2">
+                                                    <img alt="" src={icon} className=" icon"></img>
+                                                </div>
                                                 <div>Access to mpartial engine</div>
                                             </div>
                                         </div>
@@ -80,25 +87,43 @@ const WaterFall = (props) => {
                                         <h4>4.12%</h4>
                                         <div>
                                             <div className="d-flex">
+                                                <div className="mr-2">
+                                                    <img alt="" src={icon} className=" icon"></img>
+                                                </div>
                                                 <div>Access to mpartial engine</div>
                                             </div>
                                             <div className="d-flex">
+                                                <div className="mr-2">
+                                                    <img alt="" src={icon} className=" icon"></img>
+                                                </div>
                                                 <div>Discounted fee schedule</div>
                                             </div>
                                             <div className="d-flex">
+                                                <div className="mr-2">
+                                                    <img alt="" src={icon} className=" icon"></img>
+                                                </div>
                                                 <div>Unlimited collaborators</div>
                                             </div>
                                             <div className="d-flex">
+                                                <div className="mr-2">
+                                                    <img alt="" src={icon} className=" icon"></img>
+                                                </div>
                                                 <div>Dedicated account manager</div>
                                             </div>
                                             <div className="d-flex">
+                                                <div className="mr-2">
+                                                    <img alt="" src={icon} className=" icon"></img>
+                                                </div>
                                                 <div>Prioritized turnaround time</div>
                                             </div>
                                             <div className="d-flex">
+                                                <div className="mr-2">
+                                                    <img alt="" src={icon} className=" icon"></img>
+                                                </div>
                                                 <div>Minimum $750 initial deposit</div>
                                             </div>
                                         </div>
-                                        <h4 style={{ fontSize: '30px' }}>Free</h4>
+                                        <h4 style={{ fontSize: '30px' }}>$495/month</h4>
                                     </div>
                                 </div>
 
